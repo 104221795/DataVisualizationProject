@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="/hospital.css">
+</head>
+<body>
+    <div>
+        <button id="pre" disabled>Previous year</button>
+        <button id="next">Next year</button>
+    </div>
+    <svg width="1000" height="600" ></svg>
+
+    <script>
+        let currentYearIndex =0;
+        let years =[];
+        
+     // Load the CSV file
+        d3.csv("hospital2010-2021.csv").then(data => {
+            years = Array.from(new Set(data.map(d => d.TIME_PERIOD)));
+            const margin = {top: 70, right: 30, bottom: 40, left: 100};
+            const width = 1000 - margin.left - margin.right;
+            const  height = 600 - margin.top - margin.bottom;
+            svg = d3.select("svg")
+                    .append("g")
+                    .attr("transform", `translate(${margin.left},${margin.top})`);
+
+                    //Scale
+                    xScale = d3.scaleBand()
+                                .range([0, width])
+                                .padding(0.1);
+
+                    yScale = d3.scaleLinear()
+                                .range([height, 0]);
+
+            //Change year                    
+            function updateChart(year) {
+                 const yearData = data.filter(d => d.TIME_PERIOD === year);
+                 xScale.domain(yearData.map(d => d.COU));
+                 yScale.domain([0, d3.max(yearData, d => +d.OBS_VALUE)]);
+                
+                 //Axis label
+                 svg.selectAll(".axis").remove();
+                 svg.append("g")
+                    .attr("class", "axis axisRemove")
+                    .attr("transform", `translate(0,${height})`)
+                    .call(d3.axisBottom(xScale));
+                 svg.append("g")
+                    .attr("class", "axis")
+                    .call(d3.axisLeft(yScale));
+
+                const yearLabel = svg.append("text")
+                                         .attr("x", width/2)
+                                        .attr("y", -10)
+                                        .attr("class", "axis")
+                yearLabel.text(`Year: ${year}`);
+
+
+                    //Bar
+                    const bars = svg.selectAll(".bar")
+                                    .data(yearData, d => d.COU);
+                    bars.enter()
+                        .append("rect")
+                        .attr("class", "bar")
+                        .attr("x", d => xScale(d.COU))
+                         .attr("y", d => yScale(d.OBS_VALUE))
+                        .attr("width", xScale.bandwidth())
+                        .attr("height", d => height - yScale(d.OBS_VALUE))
+                        
+                        
+                    //Transition
+                    bars.transition()
+                    .duration(500)
+                    .attr("y", d => yScale(d.OBS_VALUE))
+                    .attr("height", d => height - yScale(d.OBS_VALUE));
+
+                bars.exit().remove();
+            }
+            updateChart(years[currentYearIndex]);
+            // Button functionality
+                d3.select("#pre")
+                  .on("click", () => {
+                    if (currentYearIndex > 0) {
+                        currentYearIndex--;
+                        updateChart(years[currentYearIndex]);
+                        d3.select("#next")
+                          .property("disabled", false);
+                        
+                        if (currentYearIndex === 0) {
+                            d3.select("#pre")
+                              .property("disabled", true);
+                        }
+                    }
+                });
+
+                d3.select("#next")
+                  .on("click", () => {
+                    if (currentYearIndex < years.length - 1) {
+                        currentYearIndex++;
+                        updateChart(years[currentYearIndex]);
+                        d3.select("#pre")
+                          .property("disabled", false);
+                        if (currentYearIndex === years.length - 1) {
+                            d3.select("#next")
+                              .property("disabled", true);
+        }
+    }
+});
+
+
+
+        });
+    </script>
+</body>
+</html>
