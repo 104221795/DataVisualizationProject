@@ -1,0 +1,56 @@
+STRUCTURE,STRUCTURE_ID,STRUCTURE_NAME,ACTION,VAR,Variable,UNIT,Measure,COU,Country,TIME_PERIOD,OBS_VALUE,OBS_STATUS
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,CAN,Canada,2010,10.84,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,FRA,France,2010,13.5,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,KOR,Korea,2010,4.84,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,LVA,Latvia,2010,5.36,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,USA,United States,2010,13.37,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,CAN,Canada,2011,10.85,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,FRA,France,2011,13.65,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,KOR,Korea,2011,5.42,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,LVA,Latvia,2011,5.46,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,USA,United States,2011,13.3,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,CAN,Canada,2012,10.84,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,FRA,France,2012,13.75,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,KOR,Korea,2012,5.67,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,LVA,Latvia,2012,5.62,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,USA,United States,2012,13.41,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,CAN,Canada,2013,10.93,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,FRA,France,2013,13.89,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,KOR,Korea,2013,6.19,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,LVA,Latvia,2013,5.35,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,USA,United States,2013,13.38,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,CAN,Canada,2014,11.02,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,FRA,France,2014,14.03,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,KOR,Korea,2014,6.6,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,LVA,Latvia,2014,5.32,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,USA,United States,2014,13.18,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,CAN,Canada,2015,11.2,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,FRA,France,2015,14.13,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,KOR,Korea,2015,6.8,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,LVA,Latvia,2015,5.31,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,USA,United States,2015,13.3,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,CAN,Canada,2016,11.33,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,FRA,France,2016,14.11,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,KOR,Korea,2016,7.05,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,LVA,Latvia,2016,5.44,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,USA,United States,2016,13.41,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,CAN,Canada,2017,11.35,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,FRA,France,2017,14.02,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,KOR,Korea,2017,7.19,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,LVA,Latvia,2017,5.52,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,USA,United States,2017,13.32,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,CAN,Canada,2018,11.48,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,FRA,France,2018,13.9,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,KOR,Korea,2018,7.63,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,LVA,Latvia,2018,5.5,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,USA,United States,2018,13.38,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,CAN,Canada,2019,11.55,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,FRA,France,2019,13.8,P
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,KOR,Korea,2019,8.13,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,LVA,Latvia,2019,5.61,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,USA,United States,2019,13.59,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,CAN,Canada,2020,12.52,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,FRA,France,2020,14.01,P
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,KOR,Korea,2020,8.68,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,LVA,Latvia,2020,5.85,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,GEHETHSM,Total health and social employment,PEREMPNB,% of total civilian employment,USA,United States,2020,13.83,A

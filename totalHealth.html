@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>% of total civilian employment by Country (2010-2020)</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #chart {
+            margin-top: 40px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .highlighted {
+            fill: red;
+            stroke: black;
+            stroke-width: 2;
+        }
+            .tooltip {
+            position: absolute;
+            padding: 8px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            border-radius: 4px;
+            pointer-events: none; 
+            display: none; 
+            font-size: 12px;
+            font-weight: bold;
+         }
+
+         .dotted-line {
+            stroke: gray;
+            stroke-dasharray: 8; 
+            stroke-width: 0.5;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+
+<h1>% of total civilian employment by Country (2010-2020)</h1>
+
+<div id="buttonsLine"></div>
+
+<svg id="chart" width="800" height="600"></svg>
+
+<div id="tooltip" class="tooltip"></div>
+
+<script>
+    d3.csv("Clean Processing/Total_Health_and_Social_Employmentfix.csv").then(function(data) {
+        data.forEach(function(d) {
+            d.Year = +d.TIME_PERIOD;
+        d.rate = +d.OBS_VALUE;
+        });
+        const countries = Array.from(new Set(data.map(d => d.Country)));
+
+        const buttonContainer = d3.select("#buttonsLine");
+        countries.forEach(function(country) {
+            buttonContainer.append("button")
+                            .text(country)
+                            .on("click", function() { updateChart(country); });
+        });
+
+        
+        updateChart(countries[0]);
+
+        
+        function updateChart(country) {
+            
+            countryData = data.filter(d => d.Country === country);
+
+           
+            margin = { top: 100, right: 30, bottom: 40, left: 40 };
+            width = 800 - margin.left - margin.right;
+             height = 500 - margin.top - margin.bottom;
+
+           
+            d3.select("#chart").selectAll("*").remove();
+
+           
+             svg = d3.select("#chart")
+                      .append("g")
+                       .attr("transform", `translate(${margin.left},${margin.top})`);
+
+           
+                 x = d3.scaleLinear()
+                        .domain(d3.extent(countryData, d => d.Year))
+                         .range([0, width]);
+
+                  y = d3.scaleLinear()
+                        .domain([0, d3.max(countryData, d => d.rate)])
+                        .range([height, 0]);
+
+            // Add the X axis
+            svg.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(d3.axisBottom(x).tickFormat(d3.format("")));
+
+            // Add the Y axis
+            svg.append("g")
+                .call(d3.axisLeft(y));
+
+            //  area chart
+            area = d3.area()
+                             .x(d => x(d.Year))
+                             .y0(height)  
+                            .y1(d => y(d.rate));  
+
+          
+            svg.append("path")
+                .data([countryData])
+                .attr("class", "area")
+                .attr("fill", "#bcd4e6")
+                .attr("opacity", 0.2)  
+                .attr("d", area);
+
+           line = d3.line()
+                .x(d => x(d.Year))
+                .y(d => y(d.rate));
+
+            
+            svg.append("path")
+                .data([countryData])
+                .attr("class", "line")
+                .attr("fill", "none")
+                .attr("stroke", "steelblue")
+                .attr("stroke-width", 2)
+                .attr("d", line);
+
+            
+            const circles = svg.selectAll("circle")
+                                .data(countryData)
+                                .enter()
+                                .append("circle")
+                                .attr("cx", d => x(d.Year))
+                                .attr("cy", d => y(d.rate))
+                                .attr("r", 5)
+                                .attr("fill", "steelblue")
+                                .attr("stroke", "white")
+                                .attr("stroke-width", 1)
+                                .on("mouseover", function(event, d) {
+                    
+                    d3.select(this).attr("class", "highlighted");
+
+    
+                    const tooltip = d3.select("#tooltip");
+
+                  
+                    tooltip.style("display", "block")
+                        .style("left", `${x(d.Year)+20}px`)
+                        .style("top", `${y(d.rate) +200}px`) 
+                        .html(`Year: ${d.Year}<br>Rate: ${d3.format(",")(d.rate)}%`);
+                })
+                .on("mouseout", function() {
+                   
+                    d3.select(this).attr("class", "");
+
+                    
+                    d3.select("#tooltip").style("display", "none");
+                });
+
+          
+            svg.append("text")
+                .attr("x", width / 2)
+                .attr("y", -80)
+                .attr("text-anchor", "middle")
+                .attr("font-size", "16px")
+                .attr("fill", "black")
+                .text(`% of total civilian employment of ${country} (2010-2020)`);
+
+
+                
+                const yearValues = [2010,2011, 2012,2013, 2014,2015, 2016,2017, 2018,2019, 2020];
+                let rateValues = []
+                for(i=Math.floor(d3.max(countryData, d => d.rate));(i > 0) ;i--){
+
+                    if(i%2==0){
+                    rateValues.push(i);
+                    }
+                };
+            
+
+           
+            yearValues.forEach(year  => {
+                svg.append("line")
+                    .attr("x1", x(year))
+                    .attr("x2", x(year))
+                    .attr("y1", 0)
+                    .attr("y2", height)
+                    .attr("class", "dotted-line");
+                });
+            
+            rateValues.forEach(value => {
+            svg.append("line")
+                    .attr("x1", 0)
+                    .attr("x2", width)
+                    .attr("y1", y(value))
+                    .attr("y2", y(value))
+                    .attr("class", "dotted-line");
+                });
+        }
+    })
+    
+</script>
+
+</body>
+</html>

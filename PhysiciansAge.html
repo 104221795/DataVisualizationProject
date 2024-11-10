@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Pie Chart with D3.js</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .pie-chart {
+            margin: 50px auto;
+            width: 500px;
+            height: 500px;
+            margin-bottom: 70px;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .square{
+            height: 10px;
+            width: 10px;
+            margin-right: 10px;
+            display: inline-block;
+        }
+        .pieInf{
+            font-size: 12px;
+        }
+        .infCon{
+            position: absolute;
+            top: 200px;
+            right: 10%;
+        }
+    </style>
+</head>
+<body>
+    number of physiciants in canada
+    <div class="infCon">
+    <p class="pieInf"><span class="square" style="background-color:#800000 ;"></span> Total physicians aged 35-44 years old </p>
+    <p class="pieInf"><span class="square" style="background-color: #006400 ;"></span>Total physicians aged 45-54 years old</p>
+    <p class="pieInf"><span class="square" style="background-color: #008080;"></span>Total physicians aged 55-64 years old</p>
+    <p class="pieInf"><span class="square" style="background-color: #FFE4E1 ;"></span>Total physicians aged 65-74 years old</p>
+    <p class="pieInf"><span class="square" style="background-color: #D8BFD8;"></span>Total physicians aged 75 years old and over</p>
+    <p class="pieInf"><span class="square" style="background-color: #483D8B;"></span>Total physicians under 35 years old</p>
+    </div>
+    <div class="pie-chart" id="pie-chart"></div>
+        <div class="button-container">
+         <button id="btn-2010">2010</button>
+        <button id="btn-2011">2011</button>
+        <button id="btn-2012">2012</button>
+        <button id="btn-2013">2013</button>
+        <button id="btn-2014">2014</button>
+        <button id="btn-2015">2015</button>
+       <button id="btn-2016">2016</button>
+        <button id="btn-2017">2017</button>
+        <button id="btn-2018">2018</button>
+        <button id="btn-2019">2019</button>
+        <button id="btn-2020">2020</button>
+        <button id="btn-2021">2021</button>
+        <!-- Add more buttons for other years if needed -->
+    </div>
+
+    <script>
+        // Load the CSV data
+        d3.csv('Clean Processing/Physicians_DistributionFix.csv').then(function(data) {
+            
+            function createPieChart(year) {
+                const filteredData = data.filter(d => d.TIME_PERIOD === year);
+
+                filteredData.forEach(d => {
+                    d.OBS_VALUE = +d.OBS_VALUE; 
+                });
+                const width = 500, height = 500, margin = 40;
+                const radius = Math.min(width, height) / 2 - margin;
+                const svg = d3.select('#pie-chart')
+                    .html('')  
+                    .append('svg')
+                    .attr('width', width)
+                    .attr('height', height)
+                    .append('g')
+                    .attr('transform', `translate(${width / 2},${height / 2})`);
+
+                 const pie = d3.pie()
+                    .value(d => d.OBS_VALUE)
+                    .sort(null)
+                    
+                  const arc = d3.arc()
+                    .outerRadius(radius)
+                    .innerRadius(0);
+
+                    const color = d3.scaleOrdinal()
+                    .domain(filteredData.map(d => d.Variable))
+                    .range([
+                        '#800000', '#006400', '#008080', '#FFE4E1', '#D8BFD8', '#483D8B'
+                    ]);
+
+                 const pieData = pie(filteredData);
+
+                svg.selectAll('path')
+                    .data(pieData)
+                    .enter()
+                    .append('path')
+                    .attr('d', arc)
+                    .attr('fill', (d, i) => color(i))
+                    .attr('stroke', '#fff')
+                    .attr('stroke-width', 2)
+                    .on('mouseover', function(event, d) {
+                        
+                        d3.select(this)
+                            .transition()
+                            .duration(300)
+                            .attr('transform', 'scale(1.2)')
+                            
+                    })
+                    
+                    .on('mouseout', function() {
+                        d3.select(this)
+                            .transition()
+                            .duration(300)
+                            .attr('transform', 'scale(1)');
+
+                       
+                    });
+
+              
+                svg.selectAll('text')
+                    .data(pieData)
+                    .enter()
+                    .append('text')
+                    .attr('transform', function(d) {
+                        const centroid = arc.centroid(d);
+                        return `translate(${centroid[0]-10},${centroid[1]-1})`;
+                    })
+                    .attr('text-anchor', 'middle')
+                    .attr('dy', '.35em')
+                    .style('fill', '#000')
+                    .style('font-size','12px')
+                    .text(d => d.data.OBS_VALUE +'%');
+            }
+
+            // Initialize chart with the data for 2020
+            createPieChart('2010');
+
+            // Set up buttons to switch years
+            d3.select('#btn-2010').on('click', function() {
+                createPieChart('2010');
+            });
+            d3.select('#btn-2011').on('click', function() {
+                createPieChart('2011');
+            });
+            d3.select('#btn-2012').on('click', function() {
+                createPieChart('2012');
+            });
+            d3.select('#btn-2013').on('click', function() {
+                createPieChart('2013');
+            });
+            d3.select('#btn-2014').on('click', function() {
+                createPieChart('2014');
+            });
+            d3.select('#btn-2015').on('click', function() {
+                createPieChart('2015');
+            });
+            d3.select('#btn-2016').on('click', function() {
+                createPieChart('2016');
+            });
+
+            d3.select('#btn-2017').on('click', function() {
+                createPieChart('2017');
+            });
+            d3.select('#btn-2018').on('click', function() {
+                createPieChart('2018');
+            });
+            d3.select('#btn-2019').on('click', function() {
+                createPieChart('2019');
+            });
+            d3.select('#btn-2020').on('click', function() {
+                createPieChart('2020');
+            });
+            d3.select('#btn-2021').on('click', function() {
+                createPieChart('2021');
+            });
+
+            // Add more buttons for additional years if needed
+        });
+    </script>
+</body>
+</html>

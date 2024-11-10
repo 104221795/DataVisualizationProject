@@ -1,0 +1,361 @@
+STRUCTURE,STRUCTURE_ID,STRUCTURE_NAME,ACTION,VAR,Variable,UNIT,Measure,COU,Country,TIME_PERIOD,OBS_VALUE,OBS_STATUS
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2010,94702,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2010,94702,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2010,40638,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2010,40638,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2010,3387400,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2010,3387400,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2010,674473,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2010,674473,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2010,144951,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2010,144951,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2010,416710,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2010,416710,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2010,183831,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2010,183831,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2010,71818,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2010,71818,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2010,1730215,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2010,1730215,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2010,432876,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2010,432876,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2010,119506,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2010,119506,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2010,68450,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2010,68450,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2010,11948,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2010,11948,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2010,25566,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2010,25566,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2010,941995,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2010,941995,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2011,96040,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2011,96040,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2011,39937,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2011,39937,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2011,3705100,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2011,3705100,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2011,672573,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2011,672573,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2011,142394,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2011,142394,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2011,414204,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2011,414204,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2011,181972,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2011,181972,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2011,71669,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2011,71669,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2011,1712439,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2011,1712439,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2011,475744,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2011,475744,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2011,119081,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2011,119081,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2011,66348,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2011,66348,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2011,12348,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2011,12348,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2011,25517,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2011,25517,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2011,924333,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2011,924333,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2012,96710,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2012,96710,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2012,39783,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2012,39783,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2012,4161500,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2012,4161500,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2012,670443,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2012,670443,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2012,139895,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2012,139895,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2012,414840,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2012,414840,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2012,178841,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2012,178841,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2012,69449,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2012,69449,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2012,1703853,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2012,1703853,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2012,514687,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2012,514687,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2012,119296,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2012,119296,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2012,63310,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2012,63310,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2012,12469,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2012,12469,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2012,25290,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2012,25290,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2012,920829,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2012,920829,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2013,95409,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2013,95409,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2013,39232,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2013,39232,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2013,4578600,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2013,4578600,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2013,667560,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2013,667560,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2013,138153,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2013,138153,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2013,412908,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2013,412908,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2013,176791,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2013,176791,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2013,69621,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2013,69621,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2013,1695114,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2013,1695114,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2013,550543,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2013,550543,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2013,120719,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2013,120719,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2013,62051,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2013,62051,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2013,12362,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2013,12362,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2013,24894,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2013,24894,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2013,914513,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2013,914513,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2014,94779,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2014,94779,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2014,38764,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2014,38764,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2014,4961200,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2014,4961200,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2014,666337,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2014,666337,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2014,137877,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2014,137877,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2014,410729,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2014,410729,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2014,176324,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2014,176324,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2014,68910,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2014,68910,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2014,1680625,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2014,1680625,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2014,587993,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2014,587993,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2014,121475,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2014,121475,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2014,59795,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2014,59795,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2014,12412,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2014,12412,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2014,24608,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2014,24608,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2014,902202,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2014,902202,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2015,93595,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2015,93595,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2015,39176,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2015,39176,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2015,5330600,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2015,5330600,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2015,664364,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2015,664364,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2015,138368,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2015,138368,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2015,407956,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2015,407956,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2015,169995,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2015,169995,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2015,68843,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2015,68843,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2015,1673594,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2015,1673594,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2015,592262,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2015,592262,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2015,120735,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2015,120735,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2015,59117,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2015,59117,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2015,12474,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2015,12474,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2015,23904,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2015,23904,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2015,897961,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2015,897961,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2016,93715,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2016,93715,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2016,39254,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2016,39254,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2016,5688900,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2016,5688900,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2016,663941,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2016,663941,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2016,137867,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2016,137867,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2016,403995,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2016,403995,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2016,168934,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2016,168934,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2016,68713,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2016,68713,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2016,1664456,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2016,1664456,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2016,613968,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2016,613968,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2016,121794,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2016,121794,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2016,58090,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2016,58090,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2016,12821,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2016,12821,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2016,23209,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2016,23209,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2016,894574,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2016,894574,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2017,92462,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2017,92462,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2017,39330,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2017,39330,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2017,6120500,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2017,6120500,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2017,661448,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2017,661448,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2017,138581,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2017,138581,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2017,399344,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2017,399344,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2017,167589,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2017,167589,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2017,68702,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2017,68702,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2017,1653234,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2017,1653234,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2017,631092,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2017,631092,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2017,121728,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2017,121728,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2017,56136,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2017,56136,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2017,13010,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2017,13010,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2017,22247,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2017,22247,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2017,931203,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2017,931203,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2018,94673,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2018,94673,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2018,39401,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2018,39401,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2018,6519700,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2018,6519700,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2018,661880,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2018,661880,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2018,139061,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2018,139061,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2018,395437,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2018,395437,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2018,165844,E
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2018,165844,E
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2018,67947,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2018,67947,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2018,1641407,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2018,1641407,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2018,641870,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2018,641870,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2018,121983,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2018,121983,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2018,54871,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2018,54871,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2018,12702,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2018,12702,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2018,21707,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2018,21707,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2018,924107,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2018,924107,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2019,94748,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2019,94748,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2019,39390,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2019,39390,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2019,6866500,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2019,6866500,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2019,657662,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2019,657662,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2019,138861,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2019,138861,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2019,391781,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2019,391781,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2019,163873,E
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2019,163873,E
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2019,67494,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2019,67494,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2019,1620040,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2019,1620040,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2019,643440,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2019,643440,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2019,120736,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2019,120736,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2019,52398,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2019,52398,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2019,12667,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2019,12667,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2019,21280,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2019,21280,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2019,919559,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2019,919559,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2020,96849,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2020,96849,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2020,38705,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2020,38705,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2020,7131200,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2020,7131200,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2020,650167,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2020,650167,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2020,139977,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2020,139977,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2020,386722,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2020,386722,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2020,162723,E
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2020,162723,E
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2020,65886,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2020,65886,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2020,1593572,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2020,1593572,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2020,655888,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2020,655888,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2020,126449,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2020,126449,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2020,50777,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2020,50777,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2020,12684,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2020,12684,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2020,21183.91,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2020,21183.91,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2020,920531,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2020,920531,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2021,98692,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CAN,Canada,2021,98692,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2021,38592,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHE,Switzerland,2021,38592,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2021,7414200,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,CHN,China (People's Republic of),2021,7414200,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2021,645620,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,DEU,Germany,2021,645620,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2021,140397,P
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,ESP,Spain,2021,140397,P
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,FRA,France,2021,382712,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,FRA,France,2021,382712,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2021,162951,E
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,GBR,United Kingdom,2021,162951,E
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2021,65887,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,HUN,Hungary,2021,65887,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2021,1583725,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,JPN,Japan,2021,1583725,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2021,660935,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,KOR,Korea,2021,660935,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2021,129213,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,MEX,Mexico,2021,129213,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2021,51763,B
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NLD,Netherlands,2021,51763,BP
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2021,13635,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,NZL,New Zealand,2021,13635,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2021,20840.58,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,SWE,Sweden,2021,20840.58,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPITBED,Total hospital beds,NOMBRENB,Number,USA,United States,2021,919649,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,HOPBTBED,Total hospital beds,NOMBRENB,Number,USA,United States,2021,919649,A

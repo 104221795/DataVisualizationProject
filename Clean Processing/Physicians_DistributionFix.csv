@@ -1,0 +1,79 @@
+STRUCTURE,STRUCTURE_ID,STRUCTURE_NAME,ACTION,VAR,Variable,UNIT,Measure,COU,Country,TIME_PERIOD,OBS_VALUE,OBS_STATUS
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2010,22.81,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2010,24.98,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2010,20.48,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2010,8.48,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2010,2.02,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2010,21.18,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2011,22.22,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2011,23.99,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2011,20.57,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2011,9.29,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2011,2.57,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2011,21.28,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2012,21.76,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2012,23.12,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2012,20.56,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2012,9.62,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2012,2.52,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2012,22.26,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2013,21.59,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2013,22.41,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2013,20.43,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2013,9.76,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2013,2.5,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2013,23.07,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2014,21.57,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2014,21.91,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2014,20.3,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2014,9.91,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2014,2.48,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2014,23.51,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2015,21.5,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2015,21.49,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2015,20.03,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2015,9.9,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2015,2.48,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2015,24.21,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2016,21.85,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2016,21,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2016,19.65,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2016,10.08,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2016,2.47,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2016,24.63,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2017,22.05,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2017,20.47,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2017,19.71,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2017,10.7,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2017,2.88,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2017,23.75,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2018,22.14,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2018,19.93,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2018,19.01,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2018,10.36,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2018,2.7,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2018,25.3,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2019,22.46,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2019,19.67,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2019,18.62,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2019,10.51,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2019,2.66,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2019,25.16,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2020,23,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2020,19.45,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2020,18.29,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2020,10.33,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2020,2.46,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2020,25.03,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2021,23.2,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2021,19.05,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2021,17.84,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2021,10.47,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2021,2.62,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2021,24.85,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT344,Total physicians aged 35-44 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2022,23.72,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT454,Total physicians aged 45-54 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2022,19.17,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT564,Total physicians aged 55-64 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2022,17.89,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT65O,Total physicians aged 65-74 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2022,10.67,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGT75O,Total physicians aged 75 years old and over,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2022,2.69,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,PAGGTU35,Total physicians under 35 years old,PHYTOTNB,% of total physicians (head counts),CAN,Canada,2022,25.49,A

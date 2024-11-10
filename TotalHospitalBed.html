@@ -1,3 +1,8 @@
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +11,22 @@
     <title>Document</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="/hospital.css">
+    <style>
+.bar {
+    fill: steelblue;
+    margin: 10px;
+}
+.bar:hover {
+    fill: orange;
+}
+.axisRemove path {
+    display: none;
+}
+
+
+
+
+    </style>
 </head>
 <body>
     <div>
@@ -13,13 +34,13 @@
         <button id="next">Next year</button>
     </div>
     <svg width="1000" height="600" ></svg>
-
+    <div class="tooltip" id="tooltip"></div>
     <script>
         let currentYearIndex =0;
         let years =[];
         
      // Load the CSV file
-        d3.csv("hospital2010-2021.csv").then(data => {
+        d3.csv("Clean Processing/Technical_Resources_Physical_PathFix1.csv").then(data => {
             years = Array.from(new Set(data.map(d => d.TIME_PERIOD)));
             const margin = {top: 70, right: 30, bottom: 40, left: 100};
             const width = 1000 - margin.left - margin.right;
@@ -69,8 +90,27 @@
                          .attr("y", d => yScale(d.OBS_VALUE))
                         .attr("width", xScale.bandwidth())
                         .attr("height", d => height - yScale(d.OBS_VALUE))
-                        
-                        
+                        .attr("fill","steelblue")
+                        //Mouse in
+                        .on("mouseover",function(event,d){
+                            var xPosition = parseFloat(d3.select(this).attr("x"))
+                            var yPosition = parseFloat(d3.select(this).attr("y"))
+                            d3.select(this)
+                                .attr("fill","orange")
+                                svg.append("text")
+                               .attr("id","tooltip")
+                               .attr("x",xPosition )
+                               .attr("y",yPosition-10)
+                               .text(d.OBS_VALUE);
+                        })
+                        //Mouse out
+                        .on("mouseout", function(d){
+                            d3.select(this)
+                                .attr("fill","slategrey")
+                            d3.select("#tooltip").remove();
+                            
+                        })
+   
                     //Transition
                     bars.transition()
                     .duration(500)
