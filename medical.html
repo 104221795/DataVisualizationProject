@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display number of medical technology per million population of Korean </title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+       
+        .radar-chart {
+            width: 1000px;
+            margin: 0 auto;
+
+            
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 14px;
+
+
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Display number of medical technology per million population of Korean</h1>
+    <div id="button-container">
+        <button data-year="2010">2010</button>
+        <button data-year="2011">2011</button>
+        <button data-year="2012">2012</button>
+        <button data-year="2013">2013</button>
+        <button data-year="2014">2014</button>
+        <button data-year="2015">2015</button>
+        <button data-year="2016">2016</button>
+        <button data-year="2017">2017</button>
+        <button data-year="2018">2018</button>
+        <button data-year="2019">2019</button>
+        <button data-year="2020">2020</button>
+        <button data-year="2021">2021</button>
+    </div>
+    <div class="radar-chart" id="chart" ></div>
+
+    <script src="radar.js"></script>
+
+
+
+</body>
+</html>

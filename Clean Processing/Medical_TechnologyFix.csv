@@ -1,0 +1,61 @@
+STRUCTURE,STRUCTURE_ID,STRUCTURE_NAME,ACTION,VAR,Variable,UNIT,Measure,COU,Country,TIME_PERIOD,OBS_VALUE,OBS_STATUS
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2010,35.17,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2010,4.8,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2010,48.71,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2010,3.13,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2010,5.43,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2011,35.79,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2011,5.31,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2011,51.95,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2011,3.3,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2011,5.55,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2012,36.93,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2012,5.5,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2012,54.6,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2012,3.8,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2012,5.4,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2013,37.5,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2013,5.65,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2013,55.46,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2013,4.1,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2013,5.63,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2014,36.85,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2014,5.73,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2014,54.03,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2014,4.08,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2014,5.6,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2015,37.03,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2015,5.76,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2015,54.65,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2015,3.96,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2015,5.68,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2016,37.82,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2016,5.86,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2016,57.85,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2016,4.06,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2016,5.84,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2017,38.24,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2017,5.9,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2017,59.64,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2017,3.89,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2017,6.09,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2018,38.6,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2018,5.93,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2018,61.63,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2018,3.78,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2018,6.24,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2019,39.58,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2019,5.85,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2019,63.32,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2019,3.69,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2019,6.41,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2020,40.59,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2020,6.02,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2020,65.09,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2020,3.61,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2020,6.62,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,KOR,Korea,2021,42.19,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,KOR,Korea,2021,5.99,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,KOR,Korea,2021,67.76,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,KOR,Korea,2021,3.46,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,KOR,Korea,2021,6.82,A
