@@ -140,3 +140,8 @@ d3.csv('Clean Processing/Medical_TechnologyFix.csv').then(data => {
         drawRadarChart(radarData[selectedYear]);
     });
 });
+
+
+
+
+
