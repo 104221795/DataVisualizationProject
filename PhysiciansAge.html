@@ -61,11 +61,11 @@
         <button id="btn-2019">2019</button>
         <button id="btn-2020">2020</button>
         <button id="btn-2021">2021</button>
-        <!-- Add more buttons for other years if needed -->
+    
     </div>
 
     <script>
-        // Load the CSV data
+      
         d3.csv('Clean Processing/Physicians_DistributionFix.csv').then(function(data) {
             
             function createPieChart(year) {
@@ -143,10 +143,9 @@
                     
             }
 
-            // Initialize chart with the data for 2020
+         
             createPieChart('2010');
 
-            // Set up buttons to switch years
             d3.select('#btn-2010').on('click', function() {
                 createPieChart('2010');
             });
