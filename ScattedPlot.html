@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display number of medical technology per million population of Korean </title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .dot {
+            fill: steelblue;
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+
+        .dot:hover {
+            fill: orange;
+        }
+
+        .axis-label {
+            font-size: 12px;
+            fill: #555;
+        }
+
+        .axis path,
+        .axis line {
+            shape-rendering: crispEdges;
+            fill: none;
+            stroke: #ddd;
+            stroke-width: 1;
+        }
+
+        .axis text {
+            font-size: 12px;
+        }
+
+        .chart {
+            margin: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Display number of medical technology per million population of Korean</h1>
+    <div class="chart" id="scatterplot"></div>
+    <script src="script.js"></script>
+</body>
+</html>
