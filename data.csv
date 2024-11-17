@@ -1,7 +1,5 @@
-x,y,category
-30,30,A
-80,90,B
-50,50,A
-150,130,C
-200,150,B
-250,230,A
+category,value
+Category A,30
+Category B,70
+Category C,50
+Category D,90
