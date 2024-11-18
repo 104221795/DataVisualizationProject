@@ -3,23 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D3 Donut Chart with Hover and Legend</title>
+    <title>Percentage of medical technology in Italy</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .chart-container {
+        .donut-container {
+            margin-top: 100px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
-        .donut-chart {
-            margin-right: 50px; /* Space between chart and legend */
+        .donut-donut {
+            margin-right: 50px; 
         }
         .slice {
             stroke: #fff;
@@ -44,64 +38,57 @@
     </style>
 </head>
 <body>
-    <div class="chart-container">
-        <!-- Donut Chart Container -->
-        <div class="donut-chart">
-            <svg width="500" height="500" id="chart"></svg>
+    <h1>Percentage of medical technology in Italy</h1>
+    <div class="donut-container">
+        
+        <div class="donut-donut">
+            <svg width="500" height="500" id="donut"></svg>
         </div>
 
-        <!-- Legend Container -->
+     
         <div class="legend" id="legend"></div>
     </div>
 
     <script>
-        // Set dimensions of the chart
         const width = 500;
         const height = 500;
-        const radius = Math.min(width, height) / 2;
 
-        // Create the SVG container
-        const svg = d3.select("#chart")
+        const radius = width / 2;
+
+        const svg = d3.select("#donut")
             .attr("width", width)
             .attr("height", height)
             .append("g")
             .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
-        // Load CSV data
-        d3.csv("data.csv").then(function(data) {
-            // Process the data
+        d3.csv("Clean Processing/Medical_TechnologyItali.csv").then(function(data) {
+            
             data.forEach(d => {
-                d.value = +d.value; // Convert string to number
+                d.OBS_VALUE = +d.OBS_VALUE; 
             });
 
-            // Create color scale
             const color = d3.scaleOrdinal()
-                .domain(data.map(d => d.category))
-                .range(d3.schemeSet2);
+                            .domain(data.map(d => d.Variable))
+                            .range(d3.schemeSet2);
 
-            // Create pie chart
             const pie = d3.pie()
-                .value(d => d.value)
-                .sort(null);
-
+                            .value(d => d.OBS_VALUE)
+                     
             const arc = d3.arc()
-                .innerRadius(radius - 100) // Inner radius (for the "donut" effect)
-                .outerRadius(radius - 30); // Outer radius
+                        .innerRadius(radius - 100)
+                        .outerRadius(radius - 30); 
 
             const arcHover = d3.arc()
-                .innerRadius(radius - 90) 
-                .outerRadius(radius - 20);
-
-            // Create pie slices (donut segments)
+                                .innerRadius(radius - 90) 
+                                .outerRadius(radius - 20);
             const arcs = svg.selectAll(".arc")
-                .data(pie(data))
-                .enter().append("g")
-                .attr("class", "arc");
-
+                                .data(pie(data))
+                                .enter().append("g")
+                                .attr("class", "arc");
             arcs.append("path")
                 .attr("d", arc)
                 .attr("class", "slice")
-                .attr("fill", d => color(d.data.category))
+                .attr("fill", d => color(d.data.Variable))
                 .on("mouseover", function(event, d) {
                     d3.select(this)
                         .transition().duration(200)
@@ -113,26 +100,23 @@
                         .attr("d", arc);
                 });
 
-            // Add percentage text to each slice
             arcs.append("text")
                 .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
                 .attr("dy", ".35em")
                 .attr("text-anchor", "middle")
-                .text(d => `${Math.round(d.data.value / d3.sum(data, d => d.value) * 100)}%`);
-
-            // Add legend
+                .text(d => `${Math.round(d.data.OBS_VALUE / d3.sum(data, d => d.OBS_VALUE) * 100)}%`);
             const legend = d3.select("#legend").selectAll(".legend")
                 .data(data)
-                .enter().append("div")
+                .enter()
+                .append("div")
                 .attr("class", "legend");
-
             legend.append("rect")
                 .attr("width", 15)
                 .attr("height", 15)
-                .style("background-color", d => color(d.category));
+                .style("background-color", d => color(d.Variable));
 
             legend.append("span")
-                .text(d => d.category);
+                .text(d => d.Variable);
         });
     </script>
 </body>

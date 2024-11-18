@@ -35,6 +35,19 @@
             top: 200px;
             right: 10%;
         }
+        .legend {
+            font-size: 14px;
+        }
+        .legend div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .legend rect {
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -61,7 +74,7 @@
         <button id="btn-2019">2019</button>
         <button id="btn-2020">2020</button>
         <button id="btn-2021">2021</button>
-    
+        <!-- <div class="legend" id="legend"></div> Dupicate to much -->
     </div>
 
     <script>
@@ -91,6 +104,7 @@
                   const arc = d3.arc()
                     .outerRadius(radius)
                     .innerRadius(0);
+                    
 
                     const color = d3.scaleOrdinal()
                     .domain(filteredData.map(d => d.Variable))
@@ -140,8 +154,22 @@
                     .style('fill', '#000')
                     .style('font-size','12px')
                     .text(d => d.data.OBS_VALUE +'%');
+                    const legend = d3.select("#legend").selectAll(".legend")
+                .data(data)
+                .enter()
+                .append("div")
+                .attr("class", "legend");
+            legend.append("rect")
+                .attr("width", 15)
+                .attr("height", 15)
+                .style("background-color", d => color(d.Variable));
+
+            legend.append("span")
+                .text(d => d.Variable);   
                     
             }
+            
+            
 
          
             createPieChart('2010');
