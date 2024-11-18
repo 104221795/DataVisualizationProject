@@ -1,10 +1,10 @@
 
 const width = 800, height = 800, margin = 120;
-const categories = ['Computed Tomography scanners, total',
-                    'Gamma cameras, total',
-                    'Mammographs, total',
-                    'Positron Emission Tomography (PET) scanners, total',
-                    'Radiation therapy equipment, total']; 
+const categories = ['Computed Tomography scanners, total all',
+                    'Gamma cameras, total all',
+                    'Mammographs, total all',
+                    'Positron Emission Tomography (PET) scanners, total all',
+                    'Radiation therapy equipment, total all']; 
 
 const tooltip = d3.select("body").append("div")
                     .attr("class", "tooltip")
@@ -30,11 +30,11 @@ function drawRadarChart(data) {
     const radius = Math.min(width, height) / 2 - margin;
 
   
-    const scale = d3.scaleLinear().domain([0, 70]).range([0, radius]);
+    const scale = d3.scaleLinear().domain([0,55000 ]).range([0, radius]);
 
     const axisGrid = svg.append("g").attr("class", "axis-grid");
     const numLevels = 7;  
-    const levelRadius = d3.range(1, numLevels + 1).map(d => scale(d * 10));
+    const levelRadius = d3.range(1, numLevels + 1).map(d => scale(d * 55000/7));
     axisGrid.selectAll(".grid-circle")
             .data(levelRadius)
             .enter()
@@ -49,8 +49,8 @@ function drawRadarChart(data) {
             .enter()
             .append("line")
             .attr("class", "axis")
-            .attr("x1", (d, i) => scale(70) * Math.cos(angleSlice * i - Math.PI / 2))
-            .attr("y1", (d, i) => scale(70) * Math.sin(angleSlice * i - Math.PI / 2))
+            .attr("x1", (d, i) => scale(55000) * Math.cos(angleSlice * i - Math.PI / 2))
+            .attr("y1", (d, i) => scale(55000) * Math.sin(angleSlice * i - Math.PI / 2))
             .attr("x2", 0)
             .attr("y2", 0)
             .style("stroke", "#ccc")
@@ -61,8 +61,8 @@ function drawRadarChart(data) {
             .enter()
             .append("text")
             .attr("class", "axis-label")
-            .attr("x", (d, i) => (scale(70) + 10) * Math.cos(angleSlice * i - Math.PI / 2))
-            .attr("y", (d, i) => (scale(70) + 10) * Math.sin(angleSlice * i - Math.PI / 2))
+            .attr("x", (d, i) => (scale(55000) + 10) * Math.cos(angleSlice * i - Math.PI / 2))
+            .attr("y", (d, i) => (scale(55000) + 10) * Math.sin(angleSlice * i - Math.PI / 2))
             .attr("text-anchor", "middle")
             .attr("dy", ".35em")
             .text(d => d);
