@@ -32,7 +32,7 @@ const colorScale = d3.scaleOrdinal()
                     .domain(["Computed Tomography scanners, total all", "Gamma cameras, total all", "Mammographs, total all","Positron Emission Tomography (PET) scanners, total all","Radiation therapy equipment, total all"])  // Define categories
                     .range([ "orange","steelblue", "purple","green","red"]);  
 
-d3.csv("Clean Processing/dataSet (2).csv").then(data => {
+d3.csv("Clean Processing/Medical_Technology_Total.csv").then(data => {
 
     data.forEach(d => {
         d.x = +d.TIME_PERIOD;

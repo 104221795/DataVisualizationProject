@@ -1,0 +1,6 @@
+STRUCTURE,STRUCTURE_ID,STRUCTURE_NAME,ACTION,VAR,Variable,UNIT,Measure,COU,Country,TIME_PERIOD,OBS_VALUE,OBS_STATUS
+,,,,,"Computed Tomography scanners, total all year",,,,,,477769.7,
+,,,,,"Gamma cameras, total all year",,,,,,100704,
+,,,,,"Mammographs, total all year",,,,,,366928.62,
+,,,,,"Positron Emission Tomography (PET) scanners, total all year",,,,,,27251,
+,,,,,"Radiation therapy equipment, total all year",,,,,,64496.03,

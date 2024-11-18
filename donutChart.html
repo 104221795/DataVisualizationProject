@@ -38,7 +38,7 @@
     </style>
 </head>
 <body>
-    <h1>Percentage of medical technology in Italy</h1>
+    <h1>Percentage of medical technology in 2010-2022</h1>
     <div class="donut-container">
         
         <div class="donut-donut">
@@ -61,7 +61,7 @@
             .append("g")
             .attr("transform", `translate(${width / 2}, ${height / 2})`);
 
-        d3.csv("Clean Processing/Medical_TechnologyItali.csv").then(function(data) {
+        d3.csv("Clean Processing/Medical_Technology_TotalYearFix.csv").then(function(data) {
             
             data.forEach(d => {
                 d.OBS_VALUE = +d.OBS_VALUE; 
