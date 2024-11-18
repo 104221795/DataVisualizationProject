@@ -1,0 +1,7 @@
+STRUCTURE,STRUCTURE_ID,STRUCTURE_NAME,ACTION,VAR,Variable,UNIT,Measure,COU,Country,TIME_PERIOD,OBS_VALUE,OBS_STATUS
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINSCAN,"Computed Tomography scanners, total",NBMILPNB,Per million population,ITA,Italy,2021,38.73,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINGAMA,"Gamma cameras, total",NBMILPNB,Per million population,ITA,Italy,2021,7.46,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMRIM,"Magnetic Resonance Imaging units, total",NBMILPNB,Per million population,ITA,Italy,2021,33.25,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINMAMO,"Mammographs, total",NBMILPNB,Per million population,ITA,Italy,2021,34.11,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINPETS,"Positron Emission Tomography (PET) scanners, total",NBMILPNB,Per million population,ITA,Italy,2021,3.67,A
+DATAFLOW,OECD:DF_HEALTH_REAC(1.0),Healthcare Resources,I,IPINRTEQ,"Radiation therapy equipment, total",NBMILPNB,Per million population,ITA,Italy,2021,7.31,A
