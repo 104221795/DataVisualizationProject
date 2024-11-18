@@ -4,7 +4,7 @@ const svg = d3.select("#scatterplot")
     .append("svg")
     .attr("width", width)
     .attr("height", height);
-const margin = { top: 20, right: 200, bottom: 40, left: 40 };
+const margin = { top: 20, right: 200, bottom: 40, left: 80 };
 const innerWidth = width - margin.left - margin.right;
 const innerHeight = height - margin.top - margin.bottom;
 
@@ -12,11 +12,11 @@ const chart = svg.append("g")
                 .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 const xScale = d3.scaleLinear()
-                .domain([2010, 2021]) 
+                .domain([2010, 2022]) 
                 .range([0, innerWidth]);  
 
 const yScale = d3.scaleLinear()
-                .domain([0, 70])  
+                .domain([0, 24000])  
                 .range([innerHeight, 0]); 
 
 
@@ -29,14 +29,15 @@ const yAxis = d3.axisLeft(yScale)
 
 
 const colorScale = d3.scaleOrdinal()
-                    .domain(["Computed Tomography scanners, total", "Gamma cameras, total", "Mammographs, total","Positron Emission Tomography (PET) scanners, total","Radiation therapy equipment, total"])  // Define categories
+                    .domain(["Computed Tomography scanners, total all", "Gamma cameras, total all", "Mammographs, total all","Positron Emission Tomography (PET) scanners, total all","Radiation therapy equipment, total all"])  // Define categories
                     .range([ "orange","steelblue", "purple","green","red"]);  
 
-d3.csv("Clean Processing/Medical_TechnologyFix.csv").then(data => {
+d3.csv("Clean Processing/dataSet (2).csv").then(data => {
 
     data.forEach(d => {
         d.x = +d.TIME_PERIOD;
         d.y = +d.OBS_VALUE;
+        d.z = +d.Country
     });
 
 
@@ -47,7 +48,7 @@ d3.csv("Clean Processing/Medical_TechnologyFix.csv").then(data => {
         .append("text")
         .attr("class", "axis-label")
         .attr("x", innerWidth / 2)
-        .attr("y", 30)
+        .attr("y", 40)
         .style("text-anchor", "middle")
         .text("Year");
 
@@ -58,10 +59,10 @@ d3.csv("Clean Processing/Medical_TechnologyFix.csv").then(data => {
             .append("text")
             .attr("class", "axis-label")
             .attr("x", -innerHeight / 2)
-            .attr("y", -30)
+            .attr("y", -60)
             .style("text-anchor", "middle")
             .attr("transform", "rotate(-90)")
-            .text("Per million population");
+            .text("Amount");
 
 
     const dots = chart.selectAll(".dot")
@@ -81,7 +82,7 @@ d3.csv("Clean Processing/Medical_TechnologyFix.csv").then(data => {
 
 
                 tooltip.style("visibility", "visible")
-                    .html(`Year: ${d.TIME_PERIOD}<br>Per million population: ${d.OBS_VALUE}<br>Variable: ${d.Variable}`);
+                    .html(`Year: ${d.TIME_PERIOD}<br>Amount: ${d.OBS_VALUE}<br>Variable: ${d.Variable}`);
             })
             .on("mousemove", function(event, d) {
             
